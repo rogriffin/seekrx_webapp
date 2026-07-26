@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Log In | SeekrX</title>
+
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<script
+    type="module"
+    src="../../common/header/header.js"
+></script>
+
+<body>
+    <!-- Decorative background glows -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <div id="header-container"></div>
+
+    <main class="login-page">
+        <section class="login-card">
+            <div class="login-heading">
+                <div class="login-icon">✦</div>
+
+                <h1>Welcome</h1>
+
+                <p>Log in to explore games with SeekrX.</p>
+            </div>
+
+            <!-- Keep your current destination path in the action -->
+            <form action="../home-page/home.html" method="get">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+
+                    <input type="email" id="email" name="email" placeholder="player@example.com" autocomplete="email"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+
+                    <input type="password" id="password" name="password" placeholder="Enter your password"
+                        autocomplete="current-password" required>
+                </div>
+
+                <button type="submit" class="login-button">
+                    Log In
+                </button>
+            </form>
+        </section>
+    </main>
+
+
+</body>
+
+</html>

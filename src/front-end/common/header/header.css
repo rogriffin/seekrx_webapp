@@ -1,0 +1,33 @@
+.site-header {
+    width: min(1200px, calc(100% - 48px));
+    margin: 0 auto;
+    padding: 34px 0;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+
+    font-size: 2.5rem;
+    font-weight: 850;
+    letter-spacing: -2px;
+}
+
+.logo span {
+    color: #bc62ff;
+
+    text-shadow:
+        0 0 15px rgba(188, 98, 255, 0.75),
+        0 0 30px rgba(188, 98, 255, 0.35);
+}
+
+@media (max-width: 550px) {
+    .site-header {
+        width: calc(100% - 32px);
+        padding: 25px 0;
+    }
+
+    .logo {
+        font-size: 2.1rem;
+    }
+}
