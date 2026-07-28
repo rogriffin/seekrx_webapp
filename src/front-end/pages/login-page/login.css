@@ -97,11 +97,11 @@ body::before {
 
 .login-page {
     width: min(1450px, calc(100% - 48px));
-    margin: 100px auto 50px;
+    margin: 10px auto 50px;
 }
 
 .login-card {
-    min-height: 500px;
+    min-height: 300px;
     overflow: hidden;
 
     display: grid;
@@ -287,7 +287,7 @@ input[type="password"]:focus {
 }
 
 body {
-    min-height: 100vh;
+    min-height: 70vh;
     position: relative;
     overflow-x: hidden;
 
@@ -368,20 +368,12 @@ body::before {
     background: rgba(185, 31, 255, 0.18);
 }
 
-.logo span {
-    color: var(--light-purple);
-
-    text-shadow:
-        0 0 15px rgba(188, 98, 255, 0.75),
-        0 0 30px rgba(188, 98, 255, 0.35);
-}
-
 .login-heading {
-    margin-top: 48px;
+    margin-top: 24px;
     text-align: center;
 }
 .login-icon {
-    width: 50px;
+    width: 100px;
     height: 50px;
     margin: 0 auto 18px;
 
@@ -403,7 +395,7 @@ body::before {
 .login-heading h1 {
     margin-bottom: 14px;
 
-    font-size: 2.3rem;
+    font-size: 4rem;
     letter-spacing: -0.04em;
 }
 
@@ -419,7 +411,7 @@ body::before {
 /* Form */
 
 .form-group {
-    margin-top: 70px;
+    margin-top: 24px;
 }
 
 input[type="email"],
