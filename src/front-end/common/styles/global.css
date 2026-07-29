@@ -1,0 +1,227 @@
+/* --------------------------------
+   SeekrX global variables
+-------------------------------- */
+
+:root {
+    --background: #07070d;
+    --card-background: rgba(15, 14, 25, 0.94);
+    --input-background: #181624;
+
+    --text-primary: #ffffff;
+    --text-secondary: #aaa7ba;
+    --text-muted: #777486;
+
+    --purple: #9c2cff;
+    --light-purple: #bc62ff;
+    --pink: #ec0b8f;
+    --cyan: #00d5ff;
+
+    --border: rgba(184, 88, 255, 0.3);
+    --soft-border: rgba(255, 255, 255, 0.1);
+}
+
+/* --------------------------------
+   Global reset
+-------------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+
+    color: var(--text-primary);
+
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(0, 213, 255, 0.1),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 85% 80%,
+            rgba(236, 11, 143, 0.12),
+            transparent 30%
+        ),
+        var(--background);
+
+    font-family:
+        Inter,
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+/* Background grid */
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+
+    opacity: 0.2;
+
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+        );
+
+    background-size: 50px 50px;
+}
+
+/* --------------------------------
+   Reusable background glows
+-------------------------------- */
+
+.background-glow {
+    position: fixed;
+    z-index: -1;
+
+    width: 400px;
+    height: 400px;
+
+    border-radius: 50%;
+    filter: blur(120px);
+    pointer-events: none;
+}
+
+.glow-one {
+    top: -220px;
+    right: 10%;
+
+    background: rgba(0, 213, 255, 0.17);
+}
+
+.glow-two {
+    bottom: -230px;
+    left: 10%;
+
+    background: rgba(185, 31, 255, 0.18);
+}
+
+/* --------------------------------
+   Reusable form controls
+-------------------------------- */
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+
+    color: #e1dfeb;
+
+    font-size: 0.92rem;
+    font-weight: 650;
+}
+
+.form-input {
+    width: 100%;
+    min-height: 56px;
+    padding: 0 17px;
+
+    color: white;
+    caret-color: var(--light-purple);
+
+    border: 1px solid var(--soft-border);
+    border-radius: 13px;
+    outline: none;
+
+    background: var(--input-background);
+
+    font: inherit;
+    font-size: 0.95rem;
+
+    transition:
+        border-color 180ms ease,
+        box-shadow 180ms ease,
+        background 180ms ease;
+}
+
+.form-input::placeholder {
+    color: #757181;
+}
+
+.form-input:focus {
+    border-color: rgba(188, 98, 255, 0.85);
+
+    background: #191727;
+
+    box-shadow:
+        0 0 0 4px rgba(156, 44, 255, 0.11),
+        0 0 20px rgba(156, 44, 255, 0.15);
+}
+
+/* --------------------------------
+   Reusable primary button
+-------------------------------- */
+
+.primary-button {
+    min-height: 58px;
+    padding: 0 22px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    border-radius: 14px;
+
+    background: linear-gradient(
+        90deg,
+        #8415ff,
+        #c325d4,
+        #eb087f
+    );
+
+    cursor: pointer;
+
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 800;
+    letter-spacing: 0.035em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    box-shadow:
+        0 0 22px rgba(176, 32, 255, 0.34),
+        0 8px 30px rgba(213, 0, 133, 0.15),
+        inset 0 1px rgba(255, 255, 255, 0.32);
+
+    transition:
+        transform 180ms ease,
+        box-shadow 180ms ease;
+}
+
+.primary-button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 0 30px rgba(176, 32, 255, 0.47),
+        0 12px 35px rgba(213, 0, 133, 0.22);
+}
+
+.primary-button:active {
+    transform: translateY(0);
+}

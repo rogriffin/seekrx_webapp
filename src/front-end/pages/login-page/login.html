@@ -3,20 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Log In | SeekrX</title>
 
+    <link rel="stylesheet" href="../../common/styles/global.css">
     <link rel="stylesheet" href="./login.css">
 </head>
 
-<script
-    type="module"
-    src="../../common/header/header.js"
-></script>
+<script type="module" src="../../common/header/header.js"></script>
 
 <body>
     <!-- Decorative background glows -->
@@ -40,18 +35,18 @@
                 <div class="form-group">
                     <label for="email">Email address</label>
 
-                    <input type="email" id="email" name="email" placeholder="player@example.com" autocomplete="email"
-                        required>
+                    <input class="form-input" type="email" id="email" name="email" placeholder="player@example.com"
+                        autocomplete="email" required>
                 </div>
 
                 <div class="form-group">
                     <label for="password">Password</label>
 
-                    <input type="password" id="password" name="password" placeholder="Enter your password"
-                        autocomplete="current-password" required>
+                    <input class="form-input" type="password" id="password" name="password"
+                        placeholder="Enter your password" autocomplete="current-password" required>
                 </div>
 
-                <button type="submit" class="login-button">
+                <button type="submit" class="primary-button login-button">
                     Log In
                 </button>
             </form>
