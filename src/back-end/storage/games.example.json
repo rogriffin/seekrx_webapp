@@ -14,6 +14,10 @@
     "aiGeneratedIndieMix20260801": {
       "description": "AI-generated mixed expansion added by OpenAI Codex on 2026-08-01, emphasizing varied indie games alongside larger releases. Metadata and traits are unverified estimates.",
       "gameIds": ["terraria", "subnautica", "factorio", "rimworld", "outer-wilds", "spiritfarer", "dredge", "inscryption", "tunic", "a-short-hike", "vampire-survivors", "deep-rock-galactic", "doom-eternal", "the-witness", "life-is-strange"]
+    },
+    "aiGeneratedIndieMix20260801Batch2": {
+      "description": "Second AI-generated indie-focused expansion added by OpenAI Codex on 2026-08-01. Metadata and traits are unverified estimates.",
+      "gameIds": ["balatro", "papers-please", "return-of-the-obra-dinn", "satisfactory", "untitled-goose-game", "cocoon", "donut-county"]
     }
   },
   "traitScale": {
@@ -770,6 +774,69 @@
       "priceModel": "paid", "shortDescription": "Choice-driven episodic adventure about friendship, mystery and rewinding time to reconsider difficult decisions.",
       "traits": { "action": 0.5, "strategy": 1.5, "mechanical": 0.5, "exploration": 2, "narrative": 4, "creative": 2, "social": 0, "competitive": 0, "progression": 1.5, "tension": 2.5 },
       "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "balatro", "name": "Balatro", "releaseYear": 2024, "developer": "LocalThunk", "publisher": "Playstack",
+      "storefronts": ["steam", "playstation", "xbox", "nintendo", "mobile"], "steamAppId": 2379780,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series", "switch", "ios", "android"], "playerModes": ["singleplayer"],
+      "genres": ["strategy", "roguelike"], "tags": ["deckbuilding", "card-game", "poker", "combo-building", "replayable"],
+      "priceModel": "paid", "shortDescription": "Poker-inspired deckbuilding roguelike about combining unusual jokers and card upgrades into escalating scoring engines.",
+      "traits": { "action": 0.5, "strategy": 4, "mechanical": 0.5, "exploration": 0.5, "narrative": 0, "creative": 3.5, "social": 0, "competitive": 0.5, "progression": 3, "tension": 2 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01-batch-2" }
+    },
+    {
+      "id": "papers-please", "name": "Papers, Please", "releaseYear": 2013, "developer": "Lucas Pope", "publisher": "3909",
+      "storefronts": ["steam", "gog", "itch", "mobile"], "steamAppId": 239030,
+      "platforms": ["windows", "macos", "linux", "ios", "android"], "playerModes": ["singleplayer"],
+      "genres": ["simulation", "puzzle", "strategy"], "tags": ["dystopian", "document-inspection", "choices-matter", "multiple-endings", "pixel-art"],
+      "priceModel": "paid", "shortDescription": "Dystopian document-checking simulation where careful rule application collides with moral choices and pressure to support a family.",
+      "traits": { "action": 0.5, "strategy": 3.5, "mechanical": 1.5, "exploration": 0.5, "narrative": 4, "creative": 1.5, "social": 0, "competitive": 0.5, "progression": 2, "tension": 3.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01-batch-2" }
+    },
+    {
+      "id": "return-of-the-obra-dinn", "name": "Return of the Obra Dinn", "releaseYear": 2018, "developer": "Lucas Pope", "publisher": "3909",
+      "storefronts": ["steam", "gog", "playstation", "xbox", "nintendo"], "steamAppId": 653530,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer"],
+      "genres": ["puzzle", "adventure"], "tags": ["detective", "deduction", "mystery", "historical", "monochrome"],
+      "priceModel": "paid", "shortDescription": "Deduction mystery about reconstructing the identities and fates of a missing ship's crew from frozen moments of death.",
+      "traits": { "action": 0, "strategy": 4, "mechanical": 0.5, "exploration": 3, "narrative": 4, "creative": 2, "social": 0, "competitive": 0, "progression": 1.5, "tension": 2.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01-batch-2" }
+    },
+    {
+      "id": "satisfactory", "name": "Satisfactory", "releaseYear": 2024, "developer": "Coffee Stain Studios", "publisher": "Coffee Stain Publishing",
+      "storefronts": ["steam", "epic"], "steamAppId": 526870,
+      "platforms": ["windows"], "playerModes": ["singleplayer", "co-op"],
+      "genres": ["simulation", "strategy", "sandbox", "adventure"], "tags": ["factory-building", "automation", "open-world", "logistics", "first-person"],
+      "priceModel": "paid", "shortDescription": "First-person factory-building game combining open-world exploration with large-scale automation and logistical problem solving.",
+      "traits": { "action": 1.5, "strategy": 4, "mechanical": 1.5, "exploration": 3.5, "narrative": 0.5, "creative": 4, "social": 2, "competitive": 0, "progression": 4, "tension": 1 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01-batch-2" }
+    },
+    {
+      "id": "untitled-goose-game", "name": "Untitled Goose Game", "releaseYear": 2019, "developer": "House House", "publisher": "Panic",
+      "storefronts": ["steam", "epic", "itch", "playstation", "xbox", "nintendo"], "steamAppId": 837470,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer", "co-op"],
+      "genres": ["puzzle", "adventure", "sandbox"], "tags": ["comedy", "stealth", "physics", "local-co-op", "short"],
+      "priceModel": "paid", "shortDescription": "Playful stealth-puzzle sandbox about being a troublesome goose and manipulating villagers to complete mischievous objectives.",
+      "traits": { "action": 1, "strategy": 2.5, "mechanical": 1, "exploration": 2.5, "narrative": 0.5, "creative": 3, "social": 1, "competitive": 0, "progression": 1.5, "tension": 0.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01-batch-2" }
+    },
+    {
+      "id": "cocoon", "name": "COCOON", "releaseYear": 2023, "developer": "Geometric Interactive", "publisher": "Annapurna Interactive",
+      "storefronts": ["steam", "playstation", "xbox", "nintendo"], "steamAppId": 1497440,
+      "platforms": ["windows", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer"],
+      "genres": ["puzzle", "adventure"], "tags": ["world-hopping", "atmospheric", "wordless", "alien", "isometric"],
+      "priceModel": "paid", "shortDescription": "Wordless puzzle adventure where entire worlds can be carried, entered and combined to solve layered environmental challenges.",
+      "traits": { "action": 1, "strategy": 3.5, "mechanical": 1.5, "exploration": 3, "narrative": 1.5, "creative": 3, "social": 0, "competitive": 0, "progression": 2, "tension": 1.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01-batch-2" }
+    },
+    {
+      "id": "donut-county", "name": "Donut County", "releaseYear": 2018, "developer": "Ben Esposito", "publisher": "Annapurna Interactive",
+      "storefronts": ["steam", "gog", "playstation", "xbox", "nintendo", "mobile"], "steamAppId": 702670,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series", "switch", "ios", "android"], "playerModes": ["singleplayer"],
+      "genres": ["puzzle", "adventure"], "tags": ["physics", "comedy", "short", "story-driven", "colorful"],
+      "priceModel": "paid", "shortDescription": "Short physics-puzzle comedy about controlling a growing hole, swallowing a town and meeting the characters affected by the chaos.",
+      "traits": { "action": 0.5, "strategy": 1.5, "mechanical": 0.5, "exploration": 1.5, "narrative": 2, "creative": 2.5, "social": 0, "competitive": 0, "progression": 1, "tension": 0 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01-batch-2" }
     }
   ]
 }
