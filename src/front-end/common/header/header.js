@@ -32,6 +32,11 @@ async function loadHeader() {
         }
 
         headerContainer.innerHTML = await response.text();
+
+        if (window.location.pathname.includes("/login-page/")) {
+            const profileButton = headerContainer.querySelector(".profile-button");
+            profileButton?.remove();
+        }
     } catch (error) {
         console.error("The SeekrX header could not be loaded.", error);
     }
