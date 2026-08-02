@@ -2,7 +2,6 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    padding-top: 12px;
 }
 
 .site-header {
@@ -76,10 +75,6 @@
 }
 
 @media (max-width: 550px) {
-    #header-container {
-        padding-top: 8px;
-    }
-
     .site-header {
         width: calc(100% - 16px);
         padding: 11px 12px;
