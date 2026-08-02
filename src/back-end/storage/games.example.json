@@ -10,6 +10,10 @@
     "aiGeneratedExpansion20260801": {
       "description": "AI-generated expansion added by OpenAI Codex on 2026-08-01. Metadata and trait estimates are unverified and should be independently reviewed.",
       "gameIds": ["cyberpunk-2077", "helldivers-2", "hollow-knight", "dead-by-daylight", "overcooked-2", "the-sims-4", "slay-the-spire", "red-dead-redemption-2", "valorant", "animal-crossing-new-horizons"]
+    },
+    "aiGeneratedIndieMix20260801": {
+      "description": "AI-generated mixed expansion added by OpenAI Codex on 2026-08-01, emphasizing varied indie games alongside larger releases. Metadata and traits are unverified estimates.",
+      "gameIds": ["terraria", "subnautica", "factorio", "rimworld", "outer-wilds", "spiritfarer", "dredge", "inscryption", "tunic", "a-short-hike", "vampire-survivors", "deep-rock-galactic", "doom-eternal", "the-witness", "life-is-strange"]
     }
   },
   "traitScale": {
@@ -631,6 +635,141 @@
       "priceModel": "paid", "shortDescription": "Relaxed island life simulation about collecting, decorating, building a community and visiting other players.",
       "traits": { "action": 0.5, "strategy": 1, "mechanical": 0.5, "exploration": 2.5, "narrative": 1, "creative": 4, "social": 2.5, "competitive": 0, "progression": 3.5, "tension": 0 },
       "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "terraria", "name": "Terraria", "releaseYear": 2011, "developer": "Re-Logic", "publisher": "Re-Logic",
+      "storefronts": ["steam", "gog", "playstation", "xbox", "nintendo", "mobile"], "steamAppId": 105600,
+      "platforms": ["windows", "macos", "linux", "playstation5", "xbox-series", "switch", "ios", "android"], "playerModes": ["singleplayer", "co-op", "pvp"],
+      "genres": ["action", "adventure", "sandbox", "survival"], "tags": ["crafting", "building", "exploration", "bosses", "pixel-art"],
+      "priceModel": "paid", "shortDescription": "Two-dimensional sandbox adventure about exploring generated worlds, crafting equipment, building freely and battling escalating bosses.",
+      "traits": { "action": 3, "strategy": 2, "mechanical": 2.5, "exploration": 4, "narrative": 0.5, "creative": 4, "social": 2.5, "competitive": 0.5, "progression": 4, "tension": 2 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "subnautica", "name": "Subnautica", "releaseYear": 2018, "developer": "Unknown Worlds Entertainment", "publisher": "Unknown Worlds Entertainment",
+      "storefronts": ["steam", "epic", "playstation", "xbox", "nintendo"], "steamAppId": 264710,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer"],
+      "genres": ["adventure", "survival", "sandbox"], "tags": ["underwater", "open-world", "crafting", "base-building", "survival-horror"],
+      "priceModel": "paid", "shortDescription": "Underwater survival adventure combining freeform exploration, crafting and base building with an unfolding alien mystery.",
+      "traits": { "action": 1.5, "strategy": 2.5, "mechanical": 1.5, "exploration": 4, "narrative": 3, "creative": 3, "social": 0, "competitive": 0, "progression": 3.5, "tension": 3.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "factorio", "name": "Factorio", "releaseYear": 2020, "developer": "Wube Software LTD.", "publisher": "Wube Software LTD.",
+      "storefronts": ["steam", "gog", "nintendo"], "steamAppId": 427520,
+      "platforms": ["windows", "macos", "linux", "switch"], "playerModes": ["singleplayer", "co-op", "pvp"],
+      "genres": ["strategy", "simulation", "sandbox"], "tags": ["automation", "factory-building", "resource-management", "moddable", "logistics"],
+      "priceModel": "paid", "shortDescription": "Deep automation game about designing factories, solving logistical bottlenecks and continuously scaling production systems.",
+      "traits": { "action": 1.5, "strategy": 4, "mechanical": 1.5, "exploration": 2, "narrative": 0, "creative": 4, "social": 1.5, "competitive": 0.5, "progression": 4, "tension": 1.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "rimworld", "name": "RimWorld", "releaseYear": 2018, "developer": "Ludeon Studios", "publisher": "Ludeon Studios",
+      "storefronts": ["steam", "gog", "playstation", "xbox"], "steamAppId": 294100,
+      "platforms": ["windows", "macos", "linux", "playstation5", "xbox-series"], "playerModes": ["singleplayer"],
+      "genres": ["strategy", "simulation", "sandbox", "survival"], "tags": ["colony-sim", "management", "base-building", "procedural-story", "moddable"],
+      "priceModel": "paid", "shortDescription": "Colony simulation where interlocking systems and an AI storyteller turn survival decisions into unpredictable personal stories.",
+      "traits": { "action": 1.5, "strategy": 4, "mechanical": 1, "exploration": 2, "narrative": 3, "creative": 4, "social": 0, "competitive": 0, "progression": 4, "tension": 3 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "outer-wilds", "name": "Outer Wilds", "releaseYear": 2019, "developer": "Mobius Digital", "publisher": "Annapurna Interactive",
+      "storefronts": ["steam", "epic", "playstation", "xbox", "nintendo"], "steamAppId": 753640,
+      "platforms": ["windows", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer"],
+      "genres": ["adventure", "puzzle"], "tags": ["space", "exploration", "mystery", "time-loop", "knowledge-progression"],
+      "priceModel": "paid", "shortDescription": "Knowledge-driven space mystery about exploring a hand-crafted solar system trapped in a repeating time loop.",
+      "traits": { "action": 1, "strategy": 2.5, "mechanical": 2, "exploration": 4, "narrative": 4, "creative": 2, "social": 0, "competitive": 0, "progression": 2.5, "tension": 2.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "spiritfarer", "name": "Spiritfarer: Farewell Edition", "releaseYear": 2020, "developer": "Thunder Lotus Games", "publisher": "Thunder Lotus Games",
+      "storefronts": ["steam", "epic", "gog", "playstation", "xbox", "nintendo", "mobile"], "steamAppId": 972660,
+      "platforms": ["windows", "macos", "linux", "playstation5", "xbox-series", "switch", "ios", "android"], "playerModes": ["singleplayer", "co-op"],
+      "genres": ["adventure", "simulation", "platformer"], "tags": ["cozy", "management", "emotional", "hand-drawn", "local-co-op"],
+      "priceModel": "paid", "shortDescription": "Gentle management adventure about caring for spirits, improving a boat and helping friends move on from life.",
+      "traits": { "action": 0.5, "strategy": 1.5, "mechanical": 1.5, "exploration": 3, "narrative": 4, "creative": 2.5, "social": 1, "competitive": 0, "progression": 3, "tension": 0.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "dredge", "name": "DREDGE", "releaseYear": 2023, "developer": "Black Salt Games", "publisher": "Team17",
+      "storefronts": ["steam", "gog", "playstation", "xbox", "nintendo", "mobile"], "steamAppId": 1562430,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series", "switch", "ios", "android"], "playerModes": ["singleplayer"],
+      "genres": ["adventure", "simulation", "horror"], "tags": ["fishing", "lovecraftian", "exploration", "inventory-management", "mystery"],
+      "priceModel": "paid", "shortDescription": "Fishing adventure that mixes coastal exploration and inventory management with an unsettling supernatural mystery.",
+      "traits": { "action": 1, "strategy": 2, "mechanical": 1, "exploration": 3.5, "narrative": 3, "creative": 1, "social": 0, "competitive": 0, "progression": 3, "tension": 3 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "inscryption", "name": "Inscryption", "releaseYear": 2021, "developer": "Daniel Mullins Games", "publisher": "Devolver Digital",
+      "storefronts": ["steam", "gog", "playstation", "xbox", "nintendo"], "steamAppId": 1092790,
+      "platforms": ["windows", "macos", "linux", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer"],
+      "genres": ["strategy", "roguelike", "puzzle", "horror"], "tags": ["deckbuilding", "escape-room", "psychological-horror", "mystery", "experimental"],
+      "priceModel": "paid", "shortDescription": "Unusual card-based horror game blending deckbuilding, escape-room puzzles and a layered mystery that continually changes form.",
+      "traits": { "action": 0.5, "strategy": 4, "mechanical": 1, "exploration": 2, "narrative": 4, "creative": 3, "social": 0, "competitive": 0, "progression": 2.5, "tension": 3.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "tunic", "name": "TUNIC", "releaseYear": 2022, "developer": "TUNIC Team", "publisher": "Finji",
+      "storefronts": ["steam", "gog", "playstation", "xbox", "nintendo"], "steamAppId": 553420,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer"],
+      "genres": ["action", "adventure", "puzzle"], "tags": ["isometric", "souls-like", "exploration", "secrets", "manual-decoding"],
+      "priceModel": "paid", "shortDescription": "Isometric action adventure where difficult combat and a cryptic in-game manual reward curiosity and careful observation.",
+      "traits": { "action": 2.5, "strategy": 2.5, "mechanical": 3.5, "exploration": 4, "narrative": 2.5, "creative": 1.5, "social": 0, "competitive": 0, "progression": 3, "tension": 3 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "a-short-hike", "name": "A Short Hike", "releaseYear": 2019, "developer": "adamgryu", "publisher": "adamgryu",
+      "storefronts": ["steam", "itch", "playstation", "xbox", "nintendo"], "steamAppId": 1055540,
+      "platforms": ["windows", "macos", "linux", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer"],
+      "genres": ["adventure", "platformer"], "tags": ["cozy", "exploration", "short", "open-world", "relaxing"],
+      "priceModel": "paid", "shortDescription": "Compact and relaxing exploration game about climbing a mountain, meeting visitors and finding small discoveries along the way.",
+      "traits": { "action": 0.5, "strategy": 0.5, "mechanical": 1.5, "exploration": 4, "narrative": 2, "creative": 1.5, "social": 0, "competitive": 0, "progression": 1.5, "tension": 0 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "vampire-survivors", "name": "Vampire Survivors", "releaseYear": 2022, "developer": "poncle", "publisher": "poncle",
+      "storefronts": ["steam", "epic", "playstation", "xbox", "nintendo", "mobile"], "steamAppId": 1794680,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series", "switch", "ios", "android"], "playerModes": ["singleplayer", "co-op"],
+      "genres": ["action", "roguelike"], "tags": ["bullet-heaven", "auto-attack", "horde", "short-runs", "unlock-heavy"],
+      "priceModel": "paid", "shortDescription": "Minimalist action roguelike about navigating huge enemy hordes while stacking automatic weapons into powerful combinations.",
+      "traits": { "action": 4, "strategy": 2, "mechanical": 2, "exploration": 0.5, "narrative": 0, "creative": 2.5, "social": 1, "competitive": 0, "progression": 3.5, "tension": 2.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "deep-rock-galactic", "name": "Deep Rock Galactic", "releaseYear": 2020, "developer": "Ghost Ship Games", "publisher": "Coffee Stain Publishing",
+      "storefronts": ["steam", "playstation", "xbox"], "steamAppId": 548430,
+      "platforms": ["windows", "playstation5", "xbox-series"], "playerModes": ["singleplayer", "co-op"],
+      "genres": ["shooter", "action", "adventure"], "tags": ["four-player-co-op", "procedural", "class-based", "mining", "destructible-environments"],
+      "priceModel": "paid", "shortDescription": "Cooperative shooter about class-based dwarf teams exploring procedural caves, mining resources and fighting alien swarms.",
+      "traits": { "action": 4, "strategy": 2.5, "mechanical": 3, "exploration": 3, "narrative": 0.5, "creative": 1.5, "social": 4, "competitive": 0, "progression": 3, "tension": 3 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "doom-eternal", "name": "DOOM Eternal", "releaseYear": 2020, "developer": "id Software", "publisher": "Bethesda Softworks",
+      "storefronts": ["steam", "microsoft", "playstation", "xbox", "nintendo"], "steamAppId": 782330,
+      "platforms": ["windows", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer", "pvp"],
+      "genres": ["shooter", "action"], "tags": ["fast-paced", "demons", "first-person", "difficult", "arena-combat"],
+      "priceModel": "paid", "shortDescription": "Extremely fast first-person shooter built around aggressive movement, weapon switching and demanding resource-management combat loops.",
+      "traits": { "action": 4, "strategy": 2, "mechanical": 4, "exploration": 1.5, "narrative": 1, "creative": 1, "social": 0.5, "competitive": 1, "progression": 2.5, "tension": 4 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "the-witness", "name": "The Witness", "releaseYear": 2016, "developer": "Thekla, Inc.", "publisher": "Thekla, Inc.",
+      "storefronts": ["steam", "epic", "playstation", "xbox", "mobile"], "steamAppId": 210970,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series", "ios"], "playerModes": ["singleplayer"],
+      "genres": ["puzzle", "adventure"], "tags": ["open-world", "first-person", "environmental-puzzles", "nonverbal", "difficult"],
+      "priceModel": "paid", "shortDescription": "Open-world puzzle game that teaches a visual language through hundreds of increasingly complex panels and environmental discoveries.",
+      "traits": { "action": 0, "strategy": 4, "mechanical": 0.5, "exploration": 4, "narrative": 1, "creative": 2.5, "social": 0, "competitive": 0, "progression": 2, "tension": 0.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
+    },
+    {
+      "id": "life-is-strange", "name": "Life is Strange", "releaseYear": 2015, "developer": "DONTNOD Entertainment", "publisher": "Square Enix",
+      "storefronts": ["steam", "playstation", "xbox", "mobile"], "steamAppId": 319630,
+      "platforms": ["windows", "macos", "linux", "playstation5", "xbox-series", "ios", "android"], "playerModes": ["singleplayer"],
+      "genres": ["adventure", "visual_novel"], "tags": ["choice-driven", "episodic", "story-rich", "mystery", "time-manipulation"],
+      "priceModel": "paid", "shortDescription": "Choice-driven episodic adventure about friendship, mystery and rewinding time to reconsider difficult decisions.",
+      "traits": { "action": 0.5, "strategy": 1.5, "mechanical": 0.5, "exploration": 2, "narrative": 4, "creative": 2, "social": 0, "competitive": 0, "progression": 1.5, "tension": 2.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-indie-mix-2026-08-01" }
     }
   ]
 }
