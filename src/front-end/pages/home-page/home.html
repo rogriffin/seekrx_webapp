@@ -14,8 +14,46 @@
     <link rel="stylesheet" href="./home.css">
 </head>
 
-<script
-    type="module"
-    src="../../common/header/header.js"
-></script>
- 
+<body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <div id="header-container"></div>
+
+    <a class="profile-button" href="../profile-page/profile.html">
+        Player Profile
+    </a>
+
+    <main class="home-main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-brand">
+                <h1 id="hero-title" class="hero-title">Seekr<span>X</span></h1>
+                <p class="hero-slogan">Search. Discover. Play.</p>
+            </div>
+
+            <div class="new-user-prompt">
+                <p>Looks like you're new here. Let us get to know you so we can help you find the perfect games.</p>
+                <a href="../quiz-page/quiz.html" class="primary-button quiz-button">
+                    Take Quiz
+                </a>
+            </div>
+
+            <div class="returning-user-prompt" hidden>
+                <h2>Recommendations</h2>
+                <p class="recommendations-intro">Games ranked for your player profile.</p>
+                <p id="recommendation-status" class="recommendation-status">Finding your matches...</p>
+                <div id="recommendation-grid" class="recommendation-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <script
+        type="module"
+        src="../../common/header/header.js"
+    ></script>
+    <script src="../../../back-end/js/quiz.js"></script>
+    <script src="../../../back-end/js/recommend.js"></script>
+    <script src="./home.js"></script>
+</body>
+
+</html>

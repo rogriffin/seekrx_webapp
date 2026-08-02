@@ -1,0 +1,125 @@
+.profile-page {
+    width: min(820px, calc(100% - 48px));
+    margin: 0 auto;
+    padding: 16px 0 72px;
+}
+
+.profile-heading {
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.eyebrow {
+    margin-bottom: 10px;
+    color: var(--cyan);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+.profile-heading h1 {
+    margin-bottom: 14px;
+    font-size: clamp(2.8rem, 7vw, 4.8rem);
+    letter-spacing: -0.055em;
+}
+
+.profile-heading > p:last-child,
+#empty-profile p {
+    color: var(--text-secondary);
+    line-height: 1.65;
+}
+
+.profile-card {
+    padding: clamp(30px, 6vw, 58px);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    background: var(--card-background);
+    box-shadow: 0 0 35px rgba(156, 44, 255, 0.15), 0 30px 80px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(18px);
+}
+
+.profile-intro {
+    margin-bottom: 30px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.trait-row {
+    margin: 21px 0;
+}
+
+.trait-labels {
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 0.9rem;
+}
+
+.trait-score {
+    color: var(--text-secondary);
+}
+
+.trait-track {
+    height: 11px;
+    overflow: hidden;
+    border-radius: 99px;
+    background: var(--input-background);
+}
+
+.trait-fill {
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, var(--cyan), var(--purple), var(--pink));
+    box-shadow: 0 0 12px rgba(156, 44, 255, 0.35);
+}
+
+.profile-actions {
+    margin-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.secondary-button {
+    min-height: 58px;
+    padding: 0 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-primary);
+    border: 1px solid var(--soft-border);
+    border-radius: 14px;
+    background: var(--input-background);
+    font-weight: 750;
+    text-decoration: none;
+}
+
+#empty-profile {
+    padding: 28px 0;
+    text-align: center;
+}
+
+#empty-profile h2 {
+    margin-bottom: 12px;
+    font-size: 2rem;
+}
+
+#empty-profile .primary-button {
+    margin-top: 26px;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 550px) {
+    .profile-page {
+        width: calc(100% - 32px);
+    }
+
+    .profile-actions a {
+        width: 100%;
+    }
+}

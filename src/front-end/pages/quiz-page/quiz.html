@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SeekrX Quiz</title>
+
+    <link rel="stylesheet" href="../../common/styles/global.css">
+    <link rel="stylesheet" href="./quiz.css">
+</head>
+
+<body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <div id="header-container"></div>
+
+    <main class="quiz-page">
+        <header class="quiz-heading">
+            <p class="eyebrow">Find your next favourite</p>
+            <h1>Seekr<span>X</span> Quiz</h1>
+            <p>Tell us how you like to play, and we'll build your player profile.</p>
+        </header>
+
+        <section class="quiz-card" aria-live="polite">
+            <div class="progress-header">
+                <p id="step-label">Step 1 of 3</p>
+                <p id="section-label"></p>
+            </div>
+            <div class="progress-track" aria-hidden="true">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+
+            <form id="quiz-form" novalidate>
+                <div id="questions-container"></div>
+                <p id="form-message" class="form-message" role="alert"></p>
+
+                <div class="quiz-actions">
+                    <button id="back-button" class="secondary-button" type="button">Back</button>
+                    <button id="next-button" class="primary-button" type="button">Next</button>
+                    <button id="finish-button" class="primary-button" type="submit">See My Profile</button>
+                </div>
+            </form>
+
+            <div id="results" class="results" hidden></div>
+        </section>
+    </main>
+
+    <script type="module" src="../../common/header/header.js"></script>
+    <script src="../../../back-end/js/quiz.js"></script>
+    <script src="./quiz.js"></script>
+</body>
+
+</html>

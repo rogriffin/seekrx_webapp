@@ -1,0 +1,265 @@
+.home-main {
+    width: min(1200px, calc(100% - 48px));
+    margin: 0 auto;
+}
+
+.profile-button {
+    position: absolute;
+    top: 34px;
+    right: max(24px, calc((100vw - 1200px) / 2));
+
+    min-height: 46px;
+    padding: 0 20px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: rgba(24, 22, 36, 0.88);
+
+    font-size: 0.85rem;
+    font-weight: 750;
+    letter-spacing: 0.035em;
+    text-decoration: none;
+
+    box-shadow: 0 0 18px rgba(156, 44, 255, 0.12);
+    transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.profile-button:hover {
+    border-color: var(--light-purple);
+    box-shadow: 0 0 24px rgba(156, 44, 255, 0.25);
+    transform: translateY(-2px);
+}
+
+.profile-button:focus-visible {
+    outline: 3px solid rgba(0, 213, 255, 0.55);
+    outline-offset: 3px;
+}
+
+.hero {
+    min-height: calc(100vh - 132px);
+    padding: clamp(28px, 5vh, 60px) 0 160px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-brand {
+    margin-top: -48px;
+}
+
+.hero-title {
+    color: var(--text-primary);
+
+    font-size: clamp(6rem, 16vw, 13rem);
+    font-weight: 850;
+    letter-spacing: -0.07em;
+    line-height: 0.9;
+
+    text-shadow: 0 0 42px rgba(255, 255, 255, 0.08);
+}
+
+.hero-title span {
+    color: var(--light-purple);
+
+    text-shadow:
+        0 0 18px rgba(188, 98, 255, 0.85),
+        0 0 48px rgba(156, 44, 255, 0.5),
+        0 0 90px rgba(236, 11, 143, 0.22);
+}
+
+.hero-slogan {
+    margin-top: clamp(22px, 4vw, 34px);
+
+    color: var(--text-secondary);
+
+    font-size: clamp(1.4rem, 3.25vw, 2.35rem);
+    font-weight: 500;
+    letter-spacing: 0.16em;
+}
+
+.new-user-prompt {
+    width: 100%;
+    margin-top: clamp(90px, 14vh, 150px);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(28px, 4vw, 56px);
+
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.new-user-prompt p {
+    line-height: 1.7;
+    white-space: nowrap;
+}
+
+.quiz-button {
+    min-width: 260px;
+    min-height: 76px;
+    padding: 0 38px;
+
+    font-size: 1.15rem;
+}
+
+.returning-user-prompt {
+    width: 100%;
+    margin-top: clamp(90px, 14vh, 150px);
+}
+
+.returning-user-prompt h2 {
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    letter-spacing: -0.045em;
+}
+
+.recommendations-intro {
+    margin-top: 10px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.recommendation-status {
+    margin-top: 32px;
+    color: var(--text-secondary);
+}
+
+.recommendation-status.error {
+    color: #ff83c2;
+}
+
+.recommendation-grid {
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    text-align: left;
+}
+
+.game-card {
+    min-width: 0;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--soft-border);
+    border-radius: 18px;
+    background: var(--card-background);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.3);
+    transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.game-card:hover {
+    border-color: var(--border);
+    box-shadow: 0 0 26px rgba(156, 44, 255, 0.13), 0 22px 50px rgba(0, 0, 0, 0.38);
+    transform: translateY(-3px);
+}
+
+.game-card-header {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.game-card h3 {
+    font-size: 1.28rem;
+    line-height: 1.25;
+}
+
+.match-score {
+    flex: 0 0 auto;
+    padding: 6px 9px;
+    color: white;
+    border: 1px solid rgba(188, 98, 255, 0.55);
+    border-radius: 99px;
+    background: rgba(156, 44, 255, 0.18);
+    font-size: 0.74rem;
+    font-weight: 800;
+    box-shadow: 0 0 14px rgba(156, 44, 255, 0.16);
+}
+
+.game-description {
+    margin-bottom: 20px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.game-details {
+    margin-top: auto;
+    color: var(--text-muted);
+    font-size: 0.77rem;
+    line-height: 1.55;
+}
+
+.game-genres {
+    margin-bottom: 7px;
+    color: var(--light-purple);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 550px) {
+    .home-main {
+        width: calc(100% - 32px);
+    }
+
+    .profile-button {
+        top: 25px;
+        right: 16px;
+        min-height: 42px;
+        padding: 0 14px;
+        font-size: 0.75rem;
+    }
+
+    .hero {
+        min-height: calc(100vh - 102px);
+        padding-top: 32px;
+    }
+
+    .hero-brand {
+        margin-top: -36px;
+    }
+
+    .hero-slogan {
+        letter-spacing: 0.1em;
+    }
+
+    .new-user-prompt {
+        gap: 18px;
+    }
+
+    .new-user-prompt p {
+        font-size: clamp(0.55rem, 2.3vw, 0.8rem);
+    }
+
+    .quiz-button {
+        min-width: 170px;
+        min-height: 66px;
+        padding: 0 24px;
+    }
+
+    .recommendation-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 900px) {
+    .recommendation-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

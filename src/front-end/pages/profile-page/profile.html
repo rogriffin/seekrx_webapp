@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Player Profile | SeekrX</title>
+
+    <link rel="stylesheet" href="../../common/styles/global.css">
+    <link rel="stylesheet" href="./profile.css">
+</head>
+
+<body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <div id="header-container"></div>
+
+    <main class="profile-page">
+        <header class="profile-heading">
+            <p class="eyebrow">Your gaming preferences</p>
+            <h1>Player Profile</h1>
+            <p>Your quiz scores help SeekrX understand what makes a game a great fit for you.</p>
+        </header>
+
+        <section class="profile-card" aria-live="polite">
+            <div id="profile-results"></div>
+
+            <div id="empty-profile" hidden>
+                <h2>No profile yet</h2>
+                <p>Complete the SeekrX Quiz to discover your player traits.</p>
+                <a class="primary-button" href="../quiz-page/quiz.html">Take Quiz</a>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="../../common/header/header.js"></script>
+    <script src="../../../back-end/js/quiz.js"></script>
+    <script src="./profile.js"></script>
+</body>
+
+</html>

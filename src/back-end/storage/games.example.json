@@ -2,6 +2,16 @@
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-07-24",
   "readThisFirst": "SEED DATA — NOT VERIFIED. Every trait value here is a hand-made judgement call, and the steamAppId values are best-effort. Before this file goes anywhere near a live site, confirm each appId against the Steam API and have at least two people re-rate the traits independently. Games marked steamAppId: null are either not sold on Steam or the id was not confirmed.",
+  "dataSections": {
+    "originalSeed": {
+      "description": "The original 18 hand-rated seed records.",
+      "gameIds": ["battlefield-6", "destiny-2", "fortnite", "elden-ring", "league-of-legends", "rocket-league", "counter-strike-2", "stardew-valley", "minecraft", "baldurs-gate-3", "civilization-vi", "portal-2", "hades", "celeste", "disco-elysium", "phasmophobia", "among-us", "golf-with-your-friends"]
+    },
+    "aiGeneratedExpansion20260801": {
+      "description": "AI-generated expansion added by OpenAI Codex on 2026-08-01. Metadata and trait estimates are unverified and should be independently reviewed.",
+      "gameIds": ["cyberpunk-2077", "helldivers-2", "hollow-knight", "dead-by-daylight", "overcooked-2", "the-sims-4", "slay-the-spire", "red-dead-redemption-2", "valorant", "animal-crossing-new-horizons"]
+    }
+  },
   "traitScale": {
     "range": "0 to 4, decimals allowed in 0.5 steps",
     "meaning": "Same scale as the quiz. 0 = the 'low' end of the trait table, 4 = the 'high' end. 2 = genuinely middling, not 'unknown'.",
@@ -521,6 +531,106 @@
         "tension": 1
       },
       "dataQuality": { "verified": false, "ratingMethod": "manual-estimate", "ratedBy": "seed" }
+    },
+    {
+      "id": "cyberpunk-2077", "name": "Cyberpunk 2077", "releaseYear": 2020,
+      "developer": "CD PROJEKT RED", "publisher": "CD PROJEKT RED",
+      "storefronts": ["steam", "epic", "gog", "playstation", "xbox"], "steamAppId": 1091500,
+      "platforms": ["windows", "playstation5", "xbox-series"], "playerModes": ["singleplayer"],
+      "genres": ["rpg", "action", "adventure"], "tags": ["open-world", "sci-fi", "story-rich", "character-customization", "first-person"],
+      "priceModel": "paid", "shortDescription": "Open-world science-fiction RPG built around narrative choices, character builds, exploration and first-person combat.",
+      "traits": { "action": 3.5, "strategy": 2, "mechanical": 2.5, "exploration": 4, "narrative": 4, "creative": 2.5, "social": 0, "competitive": 0, "progression": 4, "tension": 2.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "helldivers-2", "name": "HELLDIVERS 2", "releaseYear": 2024,
+      "developer": "Arrowhead Game Studios", "publisher": "PlayStation Publishing LLC",
+      "storefronts": ["steam", "playstation"], "steamAppId": 553850,
+      "platforms": ["windows", "playstation5"], "playerModes": ["co-op"],
+      "genres": ["shooter", "action"], "tags": ["third-person", "squad-based", "friendly-fire", "live-service", "sci-fi"],
+      "priceModel": "paid", "shortDescription": "Cooperative third-person shooter where squads coordinate weapons and orbital support in chaotic battles against alien armies.",
+      "traits": { "action": 4, "strategy": 2.5, "mechanical": 3, "exploration": 1.5, "narrative": 1, "creative": 1.5, "social": 4, "competitive": 0.5, "progression": 3, "tension": 3 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "hollow-knight", "name": "Hollow Knight", "releaseYear": 2017,
+      "developer": "Team Cherry", "publisher": "Team Cherry",
+      "storefronts": ["steam", "gog", "playstation", "xbox", "nintendo"], "steamAppId": 367520,
+      "platforms": ["windows", "macos", "linux", "playstation5", "xbox-series", "switch"], "playerModes": ["singleplayer"],
+      "genres": ["action", "adventure", "platformer"], "tags": ["metroidvania", "souls-like", "exploration", "difficult", "hand-drawn"],
+      "priceModel": "paid", "shortDescription": "Hand-drawn action adventure focused on precise combat, challenging bosses and exploration through an interconnected ruined kingdom.",
+      "traits": { "action": 3, "strategy": 2, "mechanical": 4, "exploration": 4, "narrative": 2.5, "creative": 1, "social": 0, "competitive": 0, "progression": 3, "tension": 3.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "dead-by-daylight", "name": "Dead by Daylight", "releaseYear": 2016,
+      "developer": "Behaviour Interactive Inc.", "publisher": "Behaviour Interactive Inc.",
+      "storefronts": ["steam", "epic", "playstation", "xbox", "nintendo"], "steamAppId": 381210,
+      "platforms": ["windows", "playstation5", "xbox-series", "switch"], "playerModes": ["pvp", "co-op"],
+      "genres": ["horror", "survival", "action"], "tags": ["asymmetric-multiplayer", "survival-horror", "teamwork", "stealth", "live-service"],
+      "priceModel": "paid", "shortDescription": "Asymmetric horror game where four survivors cooperate to escape a player-controlled killer in tense matches.",
+      "traits": { "action": 2.5, "strategy": 2.5, "mechanical": 2.5, "exploration": 1, "narrative": 0.5, "creative": 1, "social": 3.5, "competitive": 4, "progression": 3, "tension": 4 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "overcooked-2", "name": "Overcooked! 2", "releaseYear": 2018,
+      "developer": "Ghost Town Games Ltd. and Team17", "publisher": "Team17",
+      "storefronts": ["steam", "epic", "playstation", "xbox", "nintendo"], "steamAppId": 728880,
+      "platforms": ["windows", "macos", "linux", "playstation5", "xbox-series", "switch"], "playerModes": ["co-op", "singleplayer", "pvp"],
+      "genres": ["action", "simulation", "party"], "tags": ["cooking", "local-co-op", "online-co-op", "four-player", "chaotic"],
+      "priceModel": "paid", "shortDescription": "Chaotic cooking game where players coordinate tasks under time pressure in local or online cooperative kitchens.",
+      "traits": { "action": 3.5, "strategy": 2.5, "mechanical": 2.5, "exploration": 0.5, "narrative": 0.5, "creative": 1, "social": 4, "competitive": 1.5, "progression": 2, "tension": 3.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "the-sims-4", "name": "The Sims 4", "releaseYear": 2014,
+      "developer": "Maxis", "publisher": "Electronic Arts",
+      "storefronts": ["steam", "ea-app", "epic", "playstation", "xbox"], "steamAppId": 1222670,
+      "platforms": ["windows", "macos", "playstation5", "xbox-series"], "playerModes": ["singleplayer"],
+      "genres": ["simulation", "sandbox"], "tags": ["life-simulation", "building", "character-customization", "sandbox", "casual"],
+      "priceModel": "free-to-play", "shortDescription": "Open-ended life simulation centred on creating characters, building homes and shaping stories over time.",
+      "traits": { "action": 0.5, "strategy": 2, "mechanical": 0.5, "exploration": 1.5, "narrative": 2, "creative": 4, "social": 0, "competitive": 0, "progression": 3, "tension": 0.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "slay-the-spire", "name": "Slay the Spire", "releaseYear": 2019,
+      "developer": "Mega Crit", "publisher": "Mega Crit",
+      "storefronts": ["steam", "gog", "playstation", "xbox", "nintendo", "mobile"], "steamAppId": 646570,
+      "platforms": ["windows", "macos", "linux", "playstation5", "xbox-series", "switch", "ios", "android"], "playerModes": ["singleplayer"],
+      "genres": ["strategy", "roguelike"], "tags": ["deckbuilding", "turn-based", "procedural", "card-game", "difficult"],
+      "priceModel": "paid", "shortDescription": "Turn-based deckbuilding roguelike about constructing card combinations and adapting to a changing sequence of encounters.",
+      "traits": { "action": 1, "strategy": 4, "mechanical": 0.5, "exploration": 2, "narrative": 0.5, "creative": 3.5, "social": 0, "competitive": 0, "progression": 2.5, "tension": 2.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "red-dead-redemption-2", "name": "Red Dead Redemption 2", "releaseYear": 2018,
+      "developer": "Rockstar Games", "publisher": "Rockstar Games",
+      "storefronts": ["steam", "epic", "rockstar", "playstation", "xbox"], "steamAppId": 1174180,
+      "platforms": ["windows", "playstation5", "xbox-series"], "playerModes": ["singleplayer", "pvp", "co-op"],
+      "genres": ["action", "adventure"], "tags": ["open-world", "western", "story-rich", "realistic", "multiplayer"],
+      "priceModel": "paid", "shortDescription": "Expansive western adventure combining a cinematic story with open-world exploration, simulation systems and online play.",
+      "traits": { "action": 2.5, "strategy": 1.5, "mechanical": 2, "exploration": 4, "narrative": 4, "creative": 2, "social": 1.5, "competitive": 1, "progression": 3, "tension": 2.5 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "valorant", "name": "VALORANT", "releaseYear": 2020,
+      "developer": "Riot Games", "publisher": "Riot Games",
+      "storefronts": ["riot", "playstation", "xbox"], "steamAppId": null,
+      "platforms": ["windows", "playstation5", "xbox-series"], "playerModes": ["pvp", "co-op"],
+      "genres": ["shooter", "strategy", "action"], "tags": ["tactical-shooter", "hero-shooter", "five-versus-five", "ranked", "team-based"],
+      "priceModel": "free-to-play", "shortDescription": "Competitive tactical shooter where five-player teams combine precise gunplay with character abilities and coordinated strategy.",
+      "traits": { "action": 3.5, "strategy": 3.5, "mechanical": 4, "exploration": 0.5, "narrative": 0.5, "creative": 1.5, "social": 4, "competitive": 4, "progression": 2, "tension": 4 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
+    },
+    {
+      "id": "animal-crossing-new-horizons", "name": "Animal Crossing: New Horizons", "releaseYear": 2020,
+      "developer": "Nintendo EPD", "publisher": "Nintendo",
+      "storefronts": ["nintendo"], "steamAppId": null,
+      "platforms": ["switch"], "playerModes": ["singleplayer", "co-op"],
+      "genres": ["simulation", "sandbox"], "tags": ["life-simulation", "island", "decorating", "relaxing", "real-time"],
+      "priceModel": "paid", "shortDescription": "Relaxed island life simulation about collecting, decorating, building a community and visiting other players.",
+      "traits": { "action": 0.5, "strategy": 1, "mechanical": 0.5, "exploration": 2.5, "narrative": 1, "creative": 4, "social": 2.5, "competitive": 0, "progression": 3.5, "tension": 0 },
+      "dataOrigin": "ai-generated", "dataQuality": { "verified": false, "ratingMethod": "ai-estimate", "ratedBy": "openai-codex", "sourceSection": "ai-generated-expansion-2026-08-01" }
     }
   ]
 }
