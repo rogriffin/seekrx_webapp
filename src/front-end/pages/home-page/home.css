@@ -3,43 +3,6 @@
     margin: 0 auto;
 }
 
-.profile-button {
-    position: absolute;
-    top: 34px;
-    right: max(16px, calc((100vw - 1400px) / 2));
-
-    min-height: 46px;
-    padding: 0 20px;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    color: var(--text-primary);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    background: rgba(24, 22, 36, 0.88);
-
-    font-size: 0.85rem;
-    font-weight: 750;
-    letter-spacing: 0.035em;
-    text-decoration: none;
-
-    box-shadow: 0 0 18px rgba(156, 44, 255, 0.12);
-    transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
-}
-
-.profile-button:hover {
-    border-color: var(--light-purple);
-    box-shadow: 0 0 24px rgba(156, 44, 255, 0.25);
-    transform: translateY(-2px);
-}
-
-.profile-button:focus-visible {
-    outline: 3px solid rgba(0, 213, 255, 0.55);
-    outline-offset: 3px;
-}
-
 .hero {
     min-height: calc(100vh - 132px);
     padding: clamp(28px, 5vh, 60px) 0 160px;
@@ -216,14 +179,6 @@
 @media (max-width: 550px) {
     .home-main {
         width: calc(100% - 32px);
-    }
-
-    .profile-button {
-        top: 25px;
-        right: 16px;
-        min-height: 42px;
-        padding: 0 14px;
-        font-size: 0.75rem;
     }
 
     .hero {
