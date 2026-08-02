@@ -6,7 +6,7 @@
 .profile-button {
     position: absolute;
     top: 34px;
-    right: max(12px, calc((100vw - 1500px) / 2));
+    right: max(16px, calc((100vw - 1400px) / 2));
 
     min-height: 46px;
     padding: 0 20px;

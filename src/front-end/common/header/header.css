@@ -1,5 +1,5 @@
 .site-header {
-    width: min(1500px, calc(100% - 24px));
+    width: min(1400px, calc(100% - 32px));
     margin: 0 auto;
     padding: 34px 0;
 }
